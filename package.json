@@ -1,0 +1,32 @@
+{
+  "name": "blog-strapi",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.1.1",
+    "@strapi/plugin-users-permissions": "4.1.1",
+    "@strapi/strapi": "4.1.1",
+    "cloudinary": "^1.28.1",
+    "pg": "8.6.0",
+    "strapi-provider-upload-cloudinary": "^3.6.8"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "440cf531-1644-4692-8e9c-2192ffff4924"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
